@@ -52,6 +52,10 @@
 	z-index: 10;
 }
 
+.hear {
+	font-family: cursive;
+}
+
 @media (max-width: 767px) {
 	.header .social i {
 		font-size: 30px;
@@ -61,5 +65,11 @@
 	}
 	.about-content {
 		flex-direction: column;
+	}
+	.stats .stat {
+		border-right: 0 !important;
+		margin-bottom: 40px;
+		border-bottom: var(--bs-dark) solid 1px;
+		padding-bottom: 20px;
 	}
 }
